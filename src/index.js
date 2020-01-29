@@ -413,7 +413,7 @@ import ReactDOM from 'react-dom';
         }
     }*/
 
-    class MyHeader extends React.Component{
+  /*  class MyHeader extends React.Component{
         render(){
             return(
                 <div>
@@ -421,6 +421,23 @@ import ReactDOM from 'react-dom';
                     <p>Add a little Style!</p>
                 </div>
             )
+        }
+    } */
+
+    class MyHeader extends React.Component{
+        render(){
+            const mystyle = {
+                color: "White",
+                backgroundColor: "DodgerBlue",
+                padding: "10px",
+                fonFamily: "Arial"
+            };
+            return(
+                <div>
+                    <h1 style={mystyle}>Hello Style!</h1>
+                    <p>Add a little Style!</p>
+                </div>
+            );
         }
     }
 
