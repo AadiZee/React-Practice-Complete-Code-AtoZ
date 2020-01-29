@@ -382,7 +382,7 @@ import ReactDOM from 'react-dom';
         }
     }*/
 
-    class MyForm extends React.Component{
+    /*class MyForm extends React.Component{
         constructor(props){
             super(props);
             this.state = {
@@ -400,6 +400,28 @@ import ReactDOM from 'react-dom';
                 </form>
             )
         }
+    }*/
+
+    /*class MyHeader extends React.Component{
+        render(){
+            return(
+                <div>
+                    <h1 style={{color:'red'}}>Hello Style!</h1>
+                    <p>Add a little Style!</p>
+                </div>
+            );
+        }
+    }*/
+
+    class MyHeader extends React.Component{
+        render(){
+            return(
+                <div>
+                    <h1 style={{backgroundColor: "lightblue"}}>Hello Style!</h1>
+                    <p>Add a little Style!</p>
+                </div>
+            )
+        }
     }
 
-ReactDOM.render(<MyForm />, document.getElementById('root'));
+ReactDOM.render(<MyHeader />, document.getElementById('root'));
