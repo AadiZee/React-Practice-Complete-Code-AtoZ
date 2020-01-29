@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-/*import Car from './extra.js'*/
+//import Car from './extra.js';
+//import './style.css';
+import './mySass.scss';
 
 /*class Header extends React.Component {
     constructor(props){
@@ -424,7 +426,7 @@ import ReactDOM from 'react-dom';
         }
     } */
 
-    class MyHeader extends React.Component{
+  /*  class MyHeader extends React.Component{
         render(){
             const mystyle = {
                 color: "White",
@@ -436,6 +438,28 @@ import ReactDOM from 'react-dom';
                 <div>
                     <h1 style={mystyle}>Hello Style!</h1>
                     <p>Add a little Style!</p>
+                </div>
+            );
+        }
+    } */
+
+   /* class MyHeader extends React.Component{
+        render(){
+            return(
+                <div>
+                    <h1>Hello Style!</h1>
+                    <p>Add a little style!</p>
+                </div>
+            );
+        }
+    }*/
+
+    class MyHeader extends React.Component {
+        render(){
+            return(
+                <div>
+                    <h1>Hello Style!</h1>
+                    <p>Add a little style!</p>
                 </div>
             );
         }
